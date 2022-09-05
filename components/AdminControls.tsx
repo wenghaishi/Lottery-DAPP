@@ -65,6 +65,7 @@ function AdminControls() {
           toast.error("Whoops something went wrong.", {
               id:notification,
           });
+          
 
           console.error("contract call failure", err);
         }
